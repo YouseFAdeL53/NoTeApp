@@ -16,6 +16,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: #f1f5f9;
 }
 
 body.darkMode {
@@ -238,6 +239,7 @@ body.darkMode .details .list li {
 .lightbox {
   position: fixed;
   top: 0;
+  z-index: 5;
   left: 0;
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
