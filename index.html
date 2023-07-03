@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <link rel="stylesheet" href="CSS/main.css">
+  <title>NoTe APP</title>
+</head>
+
+<body>
+  <div class="icons">
+    <div class="sun" data-text="Light Mode" data-mode="light">
+      <i class="fa-solid fa-sun fa-spin"></i>
+    </div>
+    <div class="moon" data-text="Dark Mode" data-mode="dark">
+      <i class="fa-solid fa-moon fa-bounce"></i>
+    </div>
+  </div>
+  <div class="notes mt-2 mb-5">
+    <div class="container">
+      <div class="content">
+        <div class="add card-style">
+          <i class="fa-solid fa-plus"></i>
+          <span>Add Your Note</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Start Lightbox -->
+  <div class="lightbox">
+    <div class="thecontent">
+      <div class="head">
+        <h2>Add Your Note</h2>
+        <i class="fa-solid fa-x close"></i>
+      </div>
+      <div class="body">
+        <div class="one">
+          <label for="input">The Title</label>
+          <input type="text" id="input" placeholder="Write Title Of Your Note">
+        </div>
+        <div class="two">
+          <label for="text">The Message</label>
+          <textarea id="text" maxlength="180"></textarea>
+          <span></span>
+        </div>
+        <button class="send-btn">Create</button>
+      </div>
+    </div>
+  </div>
+  <!-- End LightBox -->
+  <div class="footer">YouseF AdeL</div>
+  <script src="JS/bootstrap.bundle.min.js"></script>
+  <script src="JS/main.js"></script>
+</body>
+
+</html>
